@@ -1,23 +1,21 @@
-import React from "react";
-//import Accordion from "./components/Accordion";
-import Search from "./components/Search";
+import React from 'react';
+import Accordion from './components/Accordion';
+import Search from './components/Search';
 
-/*
 const items = [
   {
-    title: "what is react",
-    content: "react is good",
+    title: 'What is React?',
+    content: 'React is a front end javascript framework',
   },
   {
-    title: "why use react",
-    content: "because it rocks",
+    title: 'Why use React?',
+    content: 'React is a favorite JS library among engineers',
   },
   {
-    title: "how do you use react",
-    content: "judiciously",
+    title: 'How do you use React?',
+    content: 'You use React by creating components',
   },
 ];
-*/
 
 export default () => {
   return (
