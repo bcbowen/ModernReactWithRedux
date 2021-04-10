@@ -1,11 +1,11 @@
-import { SIGN_IN, SIGN_OUT } from "../actions/types";
+import { SIGN_IN, SIGN_OUT } from '../actions/types';
 
-const INITIAL_STATE = {
+const INTIAL_STATE = {
   isSignedIn: null,
-  userId: null,
+  userId: null
 };
 
-const authReducer = (state = INITIAL_STATE, action) => {
+export default (state = INTIAL_STATE, action) => {
   switch (action.type) {
     case SIGN_IN:
       return { ...state, isSignedIn: true, userId: action.payload };
@@ -15,5 +15,3 @@ const authReducer = (state = INITIAL_STATE, action) => {
       return state;
   }
 };
-
-export default authReducer;
