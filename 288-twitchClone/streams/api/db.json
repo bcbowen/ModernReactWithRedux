@@ -1,0 +1,34 @@
+{
+  "streams": [
+    {
+      "id": 1,
+      "title": "stream 1",
+      "description": "This is a stream",
+      "userId": "114186706437419708054"
+    },
+    {
+      "id": 2,
+      "title": "stream 2",
+      "description": "This is another stream",
+      "userId": "114186706437419708054"
+    },
+    {
+      "title": "Hello",
+      "description": "New stream, check it out dude",
+      "userId": "114186706437419708054",
+      "id": 3
+    },
+    {
+      "title": "stream 4 man",
+      "description": "This is the fourth stream dude",
+      "userId": "114186706437419708054",
+      "id": 4
+    },
+    {
+      "title": "streaming reuse",
+      "description": "refactoring, dude, check it out ...it works",
+      "userId": "114186706437419708054",
+      "id": 5
+    }
+  ]
+}
